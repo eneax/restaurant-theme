@@ -165,14 +165,12 @@ hr {
 header.masthead {
   background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../img/header-bg.jpg");
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: center center;
   -webkit-background-size: cover;
      -moz-background-size: cover;
        -o-background-size: cover;
           background-size: cover;
-
-
   height: 100vh;
 }
 
@@ -390,7 +388,7 @@ section#contact {
   background-color: #212529;
   background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../img/contact-bg.jpg");
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: center center;
   -webkit-background-size: cover;
      -moz-background-size: cover;
